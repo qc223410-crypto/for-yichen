@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>送给龙伊尘的礼物</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 悬念开场 -->
+    <div id="intro" class="intro">
+        <span id="intro-text"></span>
+        <span class="cursor">|</span>
+    </div>
+
+    <!-- 主内容（初始隐藏） -->
+    <div id="main" class="main" style="display: none;">
+        <!-- 粒子雨画布 -->
+        <canvas id="particles"></canvas>
+
+        <!-- 烟花画布 -->
+        <canvas id="fireworks"></canvas>
+
+        <!-- 情书内容 -->
+        <div class="letter">
+            <div class="greeting">亲爱的龙伊尘：</div>
+            <div id="letter-content" class="letter-content"></div>
+            <div id="letter-end" class="letter-end" style="display: none;">
+                <div class="signature">爱你的小羊</div>
+                <div class="heart-container">
+                    <div class="heart"></div>
+                </div>
+                <div class="closing">520快乐 ❤</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
